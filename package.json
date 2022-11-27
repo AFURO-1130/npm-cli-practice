@@ -1,6 +1,6 @@
 {
   "name": "@kinjyo1130-/npm-cli-practice",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
@@ -13,7 +13,7 @@
     "build:esm": "tsc -p tsconfig.esm.json"
   },
   "bin": {
-    "npm-cli-practice": "dist/bin/index.js"
+    "@kinjyo1130-/npm-cli-practice": "dist/bin/index.js"
   },
   "files": [
     "dist"
