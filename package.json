@@ -10,7 +10,8 @@
     "prebuild": "rimraf dist",
     "build": "run-p build:*",
     "build:common": "tsc",
-    "build:esm": "tsc -p tsconfig.esm.json"
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "temp-test": "npx ts-node src/temp.ts"
   },
   "bin": {
     "@kinjyo1130-/npm-cli-practice": "dist/bin/index.js"
@@ -23,6 +24,7 @@
   "license": "MIT",
   "devDependencies": {
     "@jest/types": "^29.3.1",
+    "@kinjyo1130-/npm-cli-practice": "^1.0.1",
     "@types/jest": "^29.2.3",
     "@types/node": "^18.11.9",
     "jest": "^29.3.1",
