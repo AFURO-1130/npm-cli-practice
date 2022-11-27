@@ -1,5 +1,7 @@
-#!/usr/bin/env node
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const index_1 = require("../index");
-(0, index_1.hello)();
+const program = require('commander');
+program
+    .usage('-n yourname')
+    .option('-n, --name <value>', 'your name', String, 'World')
+    .parse(process.argv);
+console.log('Hello ' + program.name + '!');
