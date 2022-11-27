@@ -14,7 +14,7 @@
     "temp-test": "npx ts-node src/temp.ts"
   },
   "bin": {
-    "@kinjyo1130-": "dist/bin/index.js"
+    "birthday": "dist/bin/index.js"
   },
   "files": [
     "dist"
