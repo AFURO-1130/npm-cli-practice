@@ -14,7 +14,7 @@
     "temp-test": "npx ts-node src/temp.ts"
   },
   "bin": {
-    "birthday": "dist/bin/index.js"
+    "@kinjyo1130-/npm-cli-practice": "dist/bin/index.js"
   },
   "files": [
     "dist"
