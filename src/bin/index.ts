@@ -3,4 +3,4 @@
 
 
 
-console.log('Hello ' + "kinjyo" + '!')
+console.log('Hello kinjyo' + '!')
